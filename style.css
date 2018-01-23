@@ -12,7 +12,11 @@ footer {
     text-align: center;
     position: relative;
 }
-
+ol  {
+    list-style: none;
+    display: block;
+    
+}
 .landing {
     background-image: url("http://www.besthamiltonmovers.ca/wp-content/themes/bmt/images/movers-hamilton.jpg");
     background-size: cover;
@@ -119,6 +123,6 @@ footer {
 }
 
 #nav-logo {
-    height: 30px; 
+    height: 40px; 
     width: auto;
 }
