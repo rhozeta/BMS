@@ -39,7 +39,7 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 90vh;
+    height: 70vh;
 }
 
 .btn.btn-primary {
@@ -60,7 +60,7 @@ footer {
 }
 
 #logo {
-    max-width: 60vw;
+    max-width: 20vw;
     height: auto;
 }
 
