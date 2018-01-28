@@ -5,7 +5,7 @@ $(function () {
 });
 
 $(function () {
-import Typed from 'lib/typed.js';
+import Typed from 'typed.js';
 
   var options = {
     strings: ["OSHAWA", "TORONTO", "BOWMANVILLE", "WHITBY", "AJAX", "PICKERING", "SCARBOROUGH", "ETOBICOKE", "MISSISSAUGA", "BRAMPTON", "VAUGHAN", "RICHMOND HILL", "NEWMARKET"],
