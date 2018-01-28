@@ -1,22 +1,24 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
-html, body {
-     padding:0; 
-     margin:0; 
-     min-height:100%;
-    }
 
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
 
 footer {
     text-align: center;
     position: relative;
 }
-ol  {
+
+ol {
     list-style: none;
     display: block;
-    
 }
+
 .landing {
     background-image: url("http://www.besthamiltonmovers.ca/wp-content/themes/bmt/images/movers-hamilton.jpg");
     background-size: cover;
@@ -49,6 +51,7 @@ ol  {
 
 
 /* circling around services imgs */
+
 .sumimg {
     margin: 2vw 0 2vw 0;
     width: 8vw;
@@ -64,6 +67,10 @@ ol  {
     text-align: center;
     padding: 4vh;
     overflow: hidden;
+}
+
+#typed {
+    color: #c0392b;
 }
 
 .guarantee {
@@ -123,6 +130,26 @@ ol  {
 }
 
 #nav-logo {
-    height: 40px; 
+    height: 40px;
     width: auto;
+}
+
+
+/* cursor blink for typewriter*/
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
