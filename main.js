@@ -5,7 +5,7 @@ $(function () {
 });
 
 $(function () {
-import Typed from 'typed.js';
+
 
   var options = {
     strings: ["OSHAWA", "TORONTO", "BOWMANVILLE", "WHITBY", "AJAX", "PICKERING", "SCARBOROUGH", "ETOBICOKE", "MISSISSAUGA", "BRAMPTON", "VAUGHAN", "RICHMOND HILL", "NEWMARKET"],
@@ -13,7 +13,7 @@ import Typed from 'typed.js';
     backDelay: 2000,
     backSpeed: 75,
     loop: true,
-    loopCount: Infinity,
+    loopCount: Infinity
 
   }
 
